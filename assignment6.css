@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    gap:24px;
+    padding-bottom: 1%;
+}
+.himages {
+    gap: 15px;
+}
+.nal{
+  margin-left: 39px;
+    height: 50px;
+}
+.irise{
+    height: 50px;
+    width: 100px;
+    padding-top: 20px;
+}
+.list{
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.list ul{
+    display: flex;
+    gap:38px;
+   
+
+}
+.list ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200;
+   
+}
+.menu_icon {
+    display: none;
+    font-size: 25px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+/* header dhamad!! */
+.section1{
+    background-color: rgb(212, 85, 39);
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     gap: 5%;
+}
+.s1left{
+    margin-top: 10%;
+    margin-left: 8%;
+
+}
+.s1left h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.s1left p{
+    padding-top: 17px;
+    color: rgb(226, 220, 193);
+    font-size: 29px;
+}
+.s1right{
+    margin-top: 6%;
+}
+.s1right img{
+  
+    width: 480px;
+    height: 280px;
+    border-radius: 9px 9px 0px 0px;
+
+}
+.s1right p{
+   color: rgb(231, 226, 226);
+   /* padding-top: 18px; */
+   font-size: 23px;
+
+}
+.section2{
+    display: flex;
+    padding-top: 60px;
+    gap: 20px;
+    padding-right: 80px;
+    padding-left: 120px;
+    padding-bottom: 3%;
+}
+.section2 h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+
+}
+.section2 p{
+    padding-top: 10px;
+}
+.section2 ul{
+    padding-top: 20px;
+
+
+}
+.section2 ul li{
+    list-style: none;
+    color: blue;
+
+}
+.section2 ul li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.section4{
+    display: flex;
+    padding-bottom: 90px;
+    gap: 40px;
+    padding-left:80px;
+    padding-top: 40px;
+    padding-right: 200px;
+    
+
+}
+.qebta1{
+    background-color: blanchedalmond;
+    height: 80vh;
+    width: 370px;
+    /* gap: 20px; */
+    border-radius: 5px  5px 8px 8px ;
+}
+.qoralo1 p{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+button{
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.sawur1 img{
+    width: 370px;
+    border-radius: 5px  5px 0px 0px ;
+
+}
+
+
+@media screen  and ( max-width :390px){
+    .list ul{
+        display: none;
+
+    }
+    .nal{
+        margin-left: 10px;
+
+    }
+
+    .menu_icon {
+        display: block;
+        font-size: 25px;
+        padding-left: 11%;
+        padding-top: 5%;
+    }
+    .section1{
+        background-color: rgb(212, 85, 39);
+        width: 100%;
+        height: 115vh;
+         display: block;
+         gap: 5%;
+    }
+   .s1right img{
+  
+        width: 360px;
+        height: 280px;
+        border-radius: 9px 9px 0px 0px;
+        margin-left: 15px;
+    
+    }
+    .s1left h1{
+        font-size: 50px;
+    }
+    .s1left p{
+        font-size: 23px;
+    }
+    .s1right p{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .section2{
+    display: grid;
+    padding-top: 60px;
+    gap: 20px;
+    padding-right: 80px;
+    padding-left: 25px;
+    padding-bottom: 3%;
+
+    }
+    
+    
+}
